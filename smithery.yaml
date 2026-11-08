@@ -17,7 +17,7 @@ tags:
   - brazil
   - fin
   - horizontal
-  - read-only
+  - read-write
 
 # Remote HTTP MCP — sem startCommand local (servidor já hospedado)
 startCommand:

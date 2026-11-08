@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.mcp-dir/olist-mcp",
   "title": "Olist Tiny ERP",
-  "description": "Olist Tiny e-commerce ERP (formerly Tiny ERP) with the full official REST API v3, products, stock, o",
+  "description": "Olist Tiny ERP (REST API v3): orders, products, stock, NF-e invoices, payables, receivables and CRM.",
   "version": "0.1.0",
   "repository": {
     "url": "https://github.com/mcp-dir/olist-mcp",

@@ -4,8 +4,8 @@
 
 Olist Tiny e-commerce ERP (formerly Tiny ERP) with the full official REST API v3, products, stock, orders, fiscal invoices (NF-e/NFC-e), accounts payable and receivable, contacts, shipping, purchase and service orders, CRM and price lists. Read and write. Pairs with the Banco MCP to reconcile bank and ERP. You create the app in your Olist account and authorize via OAuth.
 
-- 📊 **1 tool**
-- 🔒 **Read-only**
+- 📊 **179 tools**: 73 read and 106 write
+- ✍️ **Read and write**: write tools change data in your ERP
 - 💬 **Works with any MCP client**: Claude Desktop, Cursor, VS Code, Cline, Continue
 - 🔑 **Magic-link login (no password)**
 
@@ -37,11 +37,14 @@ https://api.mcp.ai/p_olist
 
 ---
 
-## 1 tool
+## 179 tools
 
-| Tool | Description |
-|---|---|
-| `search_tools` | Single entrypoint for MCP catalog. |
+- **73 read tools**: list and fetch orders, products, stock, invoices, payables and receivables, contacts, CRM, shipping and more.
+- **106 write tools**: create, update and delete orders, products and contacts, post stock and accounts, issue and cancel NF-e invoices, settle receivables and more.
+
+Write tools act on your real Olist account, and some (issuing or cancelling NF-e) cannot be undone. Have your MCP client ask for confirmation before calling them.
+
+Full list by area, with write tools marked: [docs/ferramentas.md](docs/ferramentas.md) (PT-BR).
 
 ---
 

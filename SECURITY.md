@@ -4,7 +4,7 @@ O acesso ao Olist Tiny ERP é via token (OAuth access_token ou JWT do agent-auth
 
 - Prefira **OAuth 2.1** quando o cliente suportar: o token nunca passa pelo chat.
 - No fluxo **agent-auth**, o JWT passa pelo provedor LLM (Anthropic / OpenAI / Cursor) — ative retenção zero (Claude "Improve Claude" off, Cursor Privacy Mode) e rotacione.
-- Este MCP **não move dinheiro nem altera dados** — é 100% leitura.
+- Este MCP **altera dados no ERP**: 106 das 179 ferramentas são de escrita (criar e alterar pedidos, lançar estoque, emitir e cancelar NF-e, baixar contas a receber). Quem tem o token pode fazer tudo isso na sua conta Olist. Revogue o acesso em `app.mcp.ai` se o token vazar.
 
 ## Reportar vulnerabilidades
 

@@ -4,8 +4,8 @@
 
 ERP de e-commerce Olist Tiny (ex-Tiny ERP) com a API REST oficial v3 completa, produtos, estoque, pedidos, notas fiscais (NF-e/NFC-e), contas a pagar e receber, contatos, expedição, ordens de compra e serviço, CRM e listas de preços. Consulta e operação. Pareia com o Banco MCP para conciliar banco e ERP. Você cria o aplicativo na sua conta Olist e autoriza com OAuth.
 
-- 📊 **1 ferramenta**
-- 🔒 **Somente leitura**
+- 📊 **179 ferramentas**: 73 de leitura e 106 de escrita
+- ✍️ **Consulta e operação**: as ferramentas de escrita alteram dados no seu ERP
 - 💬 **Funciona com qualquer cliente MCP**: Claude Desktop, Cursor, VS Code, Cline, Continue
 - 🔑 **Login via magic-link (sem senha)**
 
@@ -53,13 +53,12 @@ Quais contas a receber estão em aberto este mês?
 
 ---
 
-## 1 ferramenta disponível
+## 179 ferramentas disponíveis
 
-| Tool | Descrição |
-|---|---|
-| `search_tools` | Single entrypoint for MCP catalog. |
+- **73 de leitura**: listar e consultar pedidos, produtos, estoque, notas fiscais, contas a pagar e receber, contatos, CRM, expedição e mais.
+- **106 de escrita**: criar, alterar e excluir pedidos, produtos e contatos, lançar estoque e contas, emitir e cancelar NF-e, baixar contas a receber e mais.
 
-Detalhe de cada tool: [docs/ferramentas.md](docs/ferramentas.md)
+Lista completa por área, marcando o que é escrita: [docs/ferramentas.md](docs/ferramentas.md)
 
 ---
 
@@ -71,7 +70,7 @@ Planos a partir do tier grátis. Veja [docs/precos.md](docs/precos.md).
 
 ## Privacidade & LGPD
 
-- **Somente leitura**, nenhuma ferramenta altera dados na origem.
+- **Leitura e escrita**: 73 ferramentas só consultam; 106 criam, alteram ou excluem dados no Olist, inclusive emitir e cancelar NF-e. Configure seu cliente pra pedir confirmação antes das de escrita.
 - **Sub-processadores**: Olist (Tiny), o LLM host que você escolher (Claude, ChatGPT, Cursor, agente próprio). Lista completa em [docs/privacidade-lgpd.md](docs/privacidade-lgpd.md).
 - Os dados retornados pelas tools são enviados ao **LLM host que você escolher**, sub-processador fora do nosso controle. Recomendamos planos com opt-out de treinamento.
 

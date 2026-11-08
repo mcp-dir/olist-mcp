@@ -4,7 +4,7 @@ Olist Tiny ERP segue a LGPD (Lei nº 13.709/2018).
 
 ## Princípios
 
-1. **Read-only** — nenhuma ferramenta altera dados na origem.
+1. **Escrita só quando você pede** — 73 ferramentas só consultam; 106 criam, alteram ou excluem dados no Olist (lista em [ferramentas.md](ferramentas.md)). Configure seu cliente pra pedir confirmação antes das de escrita.
 2. **Mínimo necessário** — só os dados que a ferramenta pede.
 3. **Você no controle** — desconectar / excluir conta a qualquer momento em `app.mcp.ai`.
 
@@ -21,4 +21,4 @@ Olist Tiny ERP segue a LGPD (Lei nº 13.709/2018).
 
 Acessar, corrigir, eliminar, portar, revogar consentimento. Contato: [olist@mcp.ai](mailto:olist@mcp.ai). Reclamações: [ANPD](https://www.gov.br/anpd/pt-br).
 
-**Última atualização**: 2026-06-10.
+**Última atualização**: 2026-11-08.
